@@ -115,7 +115,7 @@
     <h1>用本地 AI 批改英语作文</h1>
     <p>拍题 → OCR → 4B 端侧模型推理 → 结构化批改(评分/批注/错词/高级词)。零云端依赖,数据全程留在本地。</p>
     <div class="download-box">
-      <a href="https://github.com/JNYQAQWQ/JNYQAQWQ.github.io/releases/download/v1.145/screen-english-solver-v1.145-debug.apk" class="dl-btn" id="dl-btn">⬇ 下载 APK v1.145</a>
+      <a href="https://github.com/JNYQAQWQ/JNYQAQWQ.github.io/releases/download/v1.146/screen-english-solver-v1.146-debug.apk" class="dl-btn" id="dl-btn">⬇ 下载 APK v1.146</a>
       <div class="dl-meta">
         <span>📦 213 MB</span>
         <span>🤖 Android 8.0+</span>
@@ -167,7 +167,7 @@
   <div class="container">
     <div class="section-head">
       <h2>迭代成果</h2>
-      <span class="meta">v1.101 → v1.145 · 45 builds · 2026.09</span>
+      <span class="meta">v1.101 → v1.146 · 46 builds · 2026.09</span>
     </div>
     <div class="card">
       <ul class="releases">
@@ -196,6 +196,7 @@
         <li><span class="rel-ver">v1.143</span><div class="rel-body"><strong>启动申请文件权限 + git 智能同步协作规范</strong><span>MainActivity 加 FilePermissionDialog（每次启动检测 MANAGE_EXTERNAL_STORAGE，未授权弹跳系统设置页，已授权跳过；onResume 复查）· 新增 common/FilePermissionGate · COLLABORATE.md §4 开工前智能同步决策表 + AGENTS.md 避坑速查补 AI 开工自检 · 二进制 APK / 模型 .litertlm 禁入库走 release / download_server</span></div></li>
         <li><span class="rel-ver">v1.144</span><div class="rel-body"><strong>多机型自适应：字号上调 + 三档 Dimens token + 全屏居中</strong><span>Typography 全局上调 1-2sp（bodyLarge 17/bodyMedium 15/labelLarge 15，治"费眼睛"）· Dimens 扩展 30+ token（pagePadding/cardSpacing/cardCornerRadius/iconSm/avatarSm/titleSm 等）+ Compact/Medium/Expanded 三档（手机 480dp/中屏 600dp/大屏 720dp 居中）· 7 个屏幕硬编码 fontSize/padding 全部接入 LocalDimens · 全屏覆盖层 maxContentWidth 居中，治"大屏中间空白过多"· 4B 硬约束零改动</span></div></li>
         <li><span class="rel-ver">v1.145</span><div class="rel-body"><strong>多机型自适应收尾：余下 7 个屏幕全部接入 Dimens</strong><span>ProfileScreen 15 个子 Composable 全部接入 · PracticeTab + AnswersTab 3 个 Composable 接入 · ModelDownloadDialog 4 个子函数接入 · ExplainDialog + capture/ 4 个文件接入 · 现在所有 UI 屏幕（除 FsiScreen）都已读 LocalDimens，三档档位自动切换</span></div></li>
+        <li><span class="rel-ver">v1.146</span><div class="rel-body"><strong>FSI 滑动切换 + 外观自选 + 自定义本地模型 + AI 提示</strong><span>FSI 学习页 6 个面板用 HorizontalPager 串联,手指滑动切换,治小 Tab 难按 · 全局性能优化 · 动画过渡 · 外观设置 4 项（UI 大小 / 界面风格 / 字号 / 主题色）改完整 App 重建 · 自定义本地 .litertlm 模型接入 · AI 回复「💡 提示」按钮翻译中文含义 · COLLABORATE.md §4.7 AI 开工必读 MD + 思路回写规范</span></div></li>
       </ul>
     </div>
   </div>
